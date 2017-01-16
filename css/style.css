@@ -42,7 +42,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
-    background: url('../img/bg-banner03.jpg') no-repeat fixed;
+    background: url('../img/bg-banner.png') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;
@@ -122,7 +122,7 @@ Responsive media queries
 
 }
 #about{
-	background: url('../img/about-banner.jpg') no-repeat;
+	background: url('../img/about-banner.png') no-repeat;
 	background-size: cover;
 	margin-bottom: -3px;
 }
@@ -139,12 +139,13 @@ Responsive media queries
 	font-size: 24px;
 }
 .about-text p{
-	color: #444;
+    color: #cccccc;
 }
 .abt-list li{
 	padding: 5px 0px;
 	font-size: 18px;
 	font-weight: 400;
+    color: #f2f2f2;
 }
 #portfolio{
 	background-color: #f0f1e9;
@@ -198,8 +199,8 @@ blockquote {
 }
 
 #contact .btn-primary {
-    background: #BE2525;
-    border: 1px solid #BE2525;
+    background: #cc7979;
+    border: 1px solid #cc7979;
 }
 
 .validation {
@@ -289,13 +290,18 @@ footer {
 	transition: 0.2s linear;
 	-webkit-transition: 0.2s linear;
 	-moz-transition: 0.2s linear;
-	opacity: .5;
+	opacity: .9;
 	display: inline-block;
-	margin: 0;
+	margin: 5px;
+    margin-top: 50px;
 }
 .social-list li a{
 		font-size: 28px;
-		margin-right: 15px;
+		/*margin-left: 50px;*/
+        color:#ffffff;
+}
+.social-list li a:hover, a:focus, a:active{
+        color:#cc7979;
 }
 .type-underline, .type-underline:hover{
 	color: #767676; 
@@ -316,7 +322,7 @@ footer {
     padding-bottom: 24px;
 }
 .navbar-brand{
-	margin-top: 9px;
+	margin-top: -47px;
 }
 .grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
@@ -338,7 +344,7 @@ Responsive media queries
     padding-bottom: 15px;
 	}
 	.navbar-brand{
-		margin-top: 0px;
+		margin-top: -47px;
 	}
     .carousel-info {
     	margin-bottom: 30px;
