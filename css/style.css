@@ -76,7 +76,6 @@ Responsive media queries
     color: #cc7979;
     background-color: transparent;
 }
-
 .top-nav-collapse {
     padding: 0; 
     background: rgba(0,0,0, 0.9);
@@ -293,15 +292,13 @@ footer {
 	opacity: .9;
 	display: inline-block;
 	margin: 5px;
-    margin-top: 50px;
 }
 .social-list li a{
 		font-size: 28px;
-		/*margin-left: 50px;*/
-        color:#ffffff;
+        color:#cc7979;
 }
 .social-list li a:hover, a:focus, a:active{
-        color:#cc7979;
+        color:#6f2a2a;
 }
 .type-underline, .type-underline:hover{
 	color: #767676; 
